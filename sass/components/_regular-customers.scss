@@ -1,0 +1,48 @@
+.regular-customers {
+  height: 372px;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.regular-customers-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 94px;
+}
+
+.regular-customers-list {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 30px;
+}
+
+.regular-customers-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid $regular-cus;
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: border-color var(--duration) var(--cubic);
+}
+
+.regular-customers-icon {
+  fill: $regular-cus;
+  transition: fill var(--duration) var(--cubic);
+}
+
+.regular-customers-item:is(:hover, :focus) .regular-customers-icon {
+  fill: $second-color;
+  transition: all 1s;
+}
+
+.regular-customers-item:hover {
+  border-color: $second-color;
+  transition: all 500ms;
+}
