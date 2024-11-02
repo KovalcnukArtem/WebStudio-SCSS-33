@@ -1,0 +1,66 @@
+.advantages {
+  height: 248px;
+  margin-bottom: 94px;
+}
+
+.advantages-list {
+  display: flex;
+}
+
+.advantages-text {
+  width: 100%;
+  // margin-right: 30px;
+  line-height: 1.71;
+}
+
+.advantages-text {
+  color: $third-color;
+}
+
+.advantages-list {
+  gap: 30px;
+}
+
+.advantages-item-antenna::before {
+  content: " ";
+  display: flex;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: $uni-color;
+  background-image: url(../img/antenna.svg);
+  background-repeat: no-repeat;
+}
+
+.advantages-item-clock::before {
+  content: " ";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: $uni-color;
+  background-image: url(../img/clock.svg);
+  background-repeat: no-repeat;
+}
+
+.advantages-item-computer::before {
+  content: " ";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: $uni-color;
+  background-image: url(../img/computer.svg);
+  background-repeat: no-repeat;
+}
+
+.advantages-item-astronaut::before {
+  content: " ";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: $uni-color;
+  background-image: url(../img/astronaut.svg);
+  background-repeat: no-repeat;
+}
