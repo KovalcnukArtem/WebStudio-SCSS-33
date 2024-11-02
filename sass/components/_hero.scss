@@ -1,0 +1,67 @@
+.hero {
+  width: 1600px;
+  height: 598px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, $hero-bgi-color, $hero-bgi-grey);
+  background-image: url(../img/people.png);
+  background-repeat: no-repeat;
+}
+
+.hero-flex {
+  text-align: center;
+  width: 1600px;
+  height: 598px;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(129 / 44);
+  color: $fourth-color;
+  padding-top: 150px;
+  padding-bottom: 34px;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  padding-top: 19px;
+  padding-bottom: 20px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.hero-btn {
+  height: 50px;
+  width: 216px;
+  margin-top: 30px;
+  background-color: $second-color;
+  /* Голубий колір */
+  border-radius: 4px;
+  /* Заокруглені краї */
+  color: $fourth-color;
+  /* Колір тексту */
+  padding: 10px 20px;
+  /* Відступи */
+  border: none;
+  /* Відсутність рамки */
+  cursor: pointer;
+  /* Зміна курсору при наведенні */
+}
+
+.hero-btn:hover {
+  background-color: $butf-color;
+  transition: all 200ms;
+}
+
+.hero-button:active {
+  background-color: $second-color;
+}
+
+.hero-btn:is(:hover, :focus) {
+  animation: heartBeat;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
+}
