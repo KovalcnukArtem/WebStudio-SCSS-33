@@ -1,0 +1,168 @@
+// @import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap);
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+}
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+.header-nav-link {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  color: #000000;
+}
+.header-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #757575;
+}
+a:hover {
+  color: #2196f3; /* Синій колір при наведенні */
+  transition: all 1s;
+}
+.hero-flex {
+  text-align: center;
+  width: 1600px;
+  height: 598px;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(129 / 44);
+  color: #ffffff;
+  padding-top: 150px;
+  padding-bottom: 34px;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  padding-top: 19px;
+  padding-bottom: 20px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+.hero-btn {
+  height: 50px;
+  width: 216px;
+  margin-top: 30px;
+  background-color: #2196f3; /* Голубий колір */
+  border-radius: 4px; /* Заокруглені краї */
+  color: white; /* Колір тексту */
+  padding: 10px 20px; /* Відступи */
+  border: none; /* Відсутність рамки */
+  cursor: pointer; /* Зміна курсору при наведенні */
+}
+.hero-btn:hover {
+  background-color: rgba(17, 77, 125, 1);
+  transition: all 200ms;
+}
+.hero-button:active {
+  background-color: #2196f3;
+}
+
+.hero-btn:is(:hover, :focus) {
+  animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.business {
+  display: block;
+  line-height: 34px;
+}
+.advantages-headline {
+  font-weight: 700;
+}
+.examples-headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+}
+.example-item-wrapp-text {
+  font-weight: 700;
+  font-size: 14;
+  line-height: calc(16 / 14);
+  color: #ffffff;
+}
+.team-headline-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+}
+.team-name {
+  font-weight: 500;
+  line-height: calc(19 / 14);
+}
+.team-text {
+  line-height: calc(19 / 16);
+}
+.footer-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+.footer-item-text {
+  line-height: calc(21 / 14);
+}
+
+.header-contact-item {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+}
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+}
+.portfolio-filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+}
+.portfolio-headline {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  color: #000000;
+}
+.portfolio-text {
+  line-height: calc(30 / 14);
+  color: #757575;
+}
+.footer-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+.footer-item {
+  line-height: calc(21 / 14);
+}
+.hero-button {
+  margin-top: 54px;
+}
+.advantages-list {
+  margin-top: 94px;
+}
+.examples {
+  margin-top: 94px;
+}
+.team {
+  margin-top: 94px;
+}
+.regular-customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+}
+.footer-title {
+  font-weight: 700;
+  color: #ffffff;
+}
