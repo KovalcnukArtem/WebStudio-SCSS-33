@@ -1,7 +1,10 @@
 %placeholderAdv {
   content: " ";
-  display: flex;
+  display: block;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  background-color: $uni-color;
+  background-repeat: no-repeat;
+  background-position: center;
 }
