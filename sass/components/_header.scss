@@ -20,6 +20,9 @@
   /* Зовнішній відступ між елементами */
 }
 
+.header-nav-item {
+}
+
 .header-nav-item:is(:hover, :focus) {
   animation: pulse;
   /* referring directly to the animation's @keyframe declaration */
