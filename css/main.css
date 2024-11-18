@@ -747,32 +747,20 @@ button {
   gap: 30px;
 }
 
-.advantages-item::before {
-  content: " ";
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: #f5f4fa;
-  background-repeat: no-repeat;
+.advantages-item:first-child::before {
+  background-image: url(../../img/antenna.svg);
 }
 
-advantage-item:first-child::before {
-  background-image: url(../images/antenna.svg);
+.advantages-item:nth-child(2)::before {
+  background-image: url(../../img/clock.svg);
 }
 
-.advantage-item:nth-child(2)::before {
-  background-image: url(../images/clock.svg);
+.advantages-item:nth-child(3)::before {
+  background-image: url(../../img/computer.svg);
 }
 
-.advantage-item:nth-child(3)::before {
-  background-image: url(../images/diagram.svg);
-}
-
-.advantage-item:last-child::before {
-  background-image: url(../images/astronaut.svg);
+.advantages-item:last-child::before {
+  background-image: url(../../img/astronaut.svg);
 }
 
 .examples {
