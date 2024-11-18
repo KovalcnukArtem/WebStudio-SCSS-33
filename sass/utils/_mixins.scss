@@ -3,3 +3,14 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin adw-itm() {
+  content: " ";
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: $uni-color;
+  background-repeat: no-repeat;
+  background-position: center;
+}
