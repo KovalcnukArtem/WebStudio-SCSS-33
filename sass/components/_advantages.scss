@@ -21,28 +21,22 @@
   gap: 30px;
 }
 
-.advantages-item::before {
-  content: " ";
-  display: flex;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: $uni-color;
-  background-repeat: no-repeat;
+.advantage-item::before {
+  @extend %placeholderAdv !optional;
 }
 
-advantage-item:first-child::before {
-  background-image: url(../images/antenna.svg);
+.advantages-item:first-child::before {
+  background-image: url(../../img/antenna.svg);
 }
 
-.advantage-item:nth-child(2)::before {
-  background-image: url(../images/clock.svg);
+.advantages-item:nth-child(2)::before {
+  background-image: url(../../img/clock.svg);
 }
 
-.advantage-item:nth-child(3)::before {
-  background-image: url(../images/diagram.svg);
+.advantages-item:nth-child(3)::before {
+  background-image: url(../../img/computer.svg);
 }
 
-.advantage-item:last-child::before {
-  background-image: url(../images/astronaut.svg);
+.advantages-item:last-child::before {
+  background-image: url(../../img/astronaut.svg);
 }
