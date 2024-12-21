@@ -217,7 +217,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: solid rgb(17, 77, 125);
 }
 
 .backdrop {
@@ -477,6 +476,17 @@ input {
 button {
   border: none;
   cursor: pointer;
+}
+
+.advantage-item::before {
+  content: " ";
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header-flex {
@@ -748,19 +758,19 @@ button {
 }
 
 .advantages-item:first-child::before {
-  background-image: url(../../img/antenna.svg);
+  background-image: url(../img/antenna.svg);
 }
 
 .advantages-item:nth-child(2)::before {
-  background-image: url(../../img/clock.svg);
+  background-image: url(../img/clock.svg);
 }
 
 .advantages-item:nth-child(3)::before {
-  background-image: url(../../img/computer.svg);
+  background-image: url(../img/computer.svg);
 }
 
 .advantages-item:last-child::before {
-  background-image: url(../../img/astronaut.svg);
+  background-image: url(../img/astronaut.svg);
 }
 
 .examples {
