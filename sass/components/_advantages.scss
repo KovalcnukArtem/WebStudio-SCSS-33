@@ -26,17 +26,17 @@
 }
 
 .advantages-item:first-child::before {
-  background-image: url(../../img/antenna.svg);
+  background-image: url(../img/antenna.svg);
 }
 
 .advantages-item:nth-child(2)::before {
-  background-image: url(../../img/clock.svg);
+  background-image: url(../img/clock.svg);
 }
 
 .advantages-item:nth-child(3)::before {
-  background-image: url(../../img/computer.svg);
+  background-image: url(../img/computer.svg);
 }
 
 .advantages-item:last-child::before {
-  background-image: url(../../img/astronaut.svg);
+  background-image: url(../img/astronaut.svg);
 }
