@@ -4,7 +4,8 @@
 @import "./utils/container";
 @import "./utils/modal";
 @import "./utils/normalize";
-
+@import "./utils/placeholders";
+@import "./utils/mixins";
 
 @import "./components/header";
 
@@ -21,5 +22,3 @@
 @import "./components/footer";
 
 @import "./components/portfolio";
-
-
