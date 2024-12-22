@@ -22,7 +22,7 @@
 }
 
 .advantage-item::before {
-  @extend %placeholderAdv !optional;
+  @extend %placeholderAdv;
 }
 
 .advantages-item:first-child::before {
